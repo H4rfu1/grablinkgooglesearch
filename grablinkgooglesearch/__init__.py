@@ -20,11 +20,11 @@ def main():
   elif(type == 'txt'):
     filename = input('File Name: ')
     with open(f'{filename}.txt', 'w') as f:
-      f.write("%s :\n" % query)
+      f.write("%s =>\n" % query)
       for item in links:
           f.write("%s\n" % item)
   else:
-      print("%s :\n" % query)
+      print("%s =>\n" % query)
       for item in links:
           print("%s\n" % item)
   return links
