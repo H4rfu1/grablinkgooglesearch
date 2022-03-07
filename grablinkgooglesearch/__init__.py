@@ -25,10 +25,10 @@ def main():
       for item in links:
           f.write("%s\n" % item)
   else:
-      print("%s =>\n" % query)
+      print("%s =>" % query)
       for item in links:
-          print("%s\n" % item)
-  return links
+          print("%s"% item)
+  # return links
 
 if __name__ == "__main__":
  main()
