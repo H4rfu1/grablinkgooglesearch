@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="grablinkgooglesearch",
-    version="0.0.3",
+    version="0.0.4",
     author="Moh Fahrul Hafidh",
     author_email="admin@kulitekno.com",
     description="A python package for Grab Link Google Search and export it to a file csv or txt.",

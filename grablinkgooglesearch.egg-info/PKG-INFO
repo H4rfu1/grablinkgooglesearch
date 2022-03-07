@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: grablinkgooglesearch
-Version: 0.0.3
+Version: 0.0.4
 Summary: A python package for Grab Link Google Search and export it to a file csv or txt.
 Home-page: https://github.com/H4rfu1/grablinkgooglesearch
 Author: Moh Fahrul Hafidh
@@ -17,6 +17,14 @@ License-File: LICENSE
 A python package for Grab Link Google Search and export it to a file csv or txt.
 
 ## Installation
+Requirement library:
+```bash
+python3 -m pip install grablinkgooglesearch
+```
+pip install beautifulsoup4
+pip install google
+pip install csv
+
 To install, run the following command:
 ```bash
 python3 -m pip install grablinkgooglesearch

@@ -1,2 +1,3 @@
 csv
-googlesearch-python
+beautifulsoup4
+google

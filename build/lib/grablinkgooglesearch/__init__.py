@@ -1,5 +1,6 @@
+from bs4 import BeautifulSoup
 from googlesearch import search 
-import csv  
+import csv
 
 def main():
   links = []
